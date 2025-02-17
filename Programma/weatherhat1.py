@@ -42,13 +42,14 @@ while True:
             writer.writerow([datetime.now(), apparaat_temperatuur, tempratuur, 
                             druk, vochtigheid, lux, windkracht, windrichting])
 
+    sensor.update(interval=5)
+    time.sleep(10)
+    
+""" 
     repo_path = "/home/rpi/weatherhat-python/ICT-projecten/Programma"
     os.chdir(repo_path)
 
     os.system("git add .")
     os.system(f'git commit -m "auto"')
-    os.system("git push origin main")
+    os.system("git push origin main") """
 
-    sensor.update(interval=5)
-    time.sleep(10)
-    
