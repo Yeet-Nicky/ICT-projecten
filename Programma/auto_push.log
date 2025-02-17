@@ -13,3 +13,10 @@ and the repository exists.
  1 file changed, 9 insertions(+)
 To github.com:Yeet-Nicky/ICT-projecten.git
    0433e05..d402e3a  main -> main
+[main 4ef77b2] auto update 2025-02-17 15:07:52
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
